@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="img/perfil.jpeg" type="image/x-icon">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Carlos Rodrigo Castillo Gonzalez</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UC9ctCt2mBT-KoALmHhVqe2Q"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/DonCatCR"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/carlilocas2003/"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://github.com/CastilloGonzalezCarlosRodrigo"><i class="fa-brands fa-github-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Carlos Rodrigo Castillo Gonzalez</span></h2>
+                <p class="descripcion">Tecnico superior de Desarrollo de Software Multiplataforma</p>
+                <a href="#portfolio">Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/perfil.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Carlos Rodrigo</span> </h2>
+            <h3>Tecnico superior en DSM</h3>
+            <p>Soy estudiante de la Universidad Tecnologica del valle de Toluca el cual le gusta brindar una experiencia de 
+                usuario y satisfactoria en el desarrollo de mis proyectos.
+            </p>
+            <p>Soy una persona responsable, autodidacta y compremetida con mis trabajos, constantemente 
+                estoy aprendiendo nuevas tecnologias y herramientas para mejorar mis habilidades.</p>
+            <a href="Curriculum/Curriculum.pdf">Vizualizar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Lenguajes de programacion basicas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+                <p>Tengo 2 años de experiencia usando estos lenguajes de programacion</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Metodologias trabajadas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Design Thinking</li>
+                    <li>Scrum</li>
+                    <li>Kanban</li>
+                </ul>
+                <p>Tengo 2 años de experiencia usando estas metodologias de programacion y diseño</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Lenguajes de programacion de Red</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Python</li>
+                    <li>Bash</li>
+                    <li>C#</li>
+                </ul>
+                <p>Tengo 4 meses de experiencia usando estos lenguajes de programacion</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento de Sitios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Hosting Compartido</li>
+                    <li>Hosting Privado Virtual</li>
+                    <li>Hosting en la nube</li>
+                </ul>
+                <p>Tengo 1 año de experiencia usando Hostings</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Photoshop</li>
+                    <li>Canva</li>
+                    <li>AdobeXD</li>
+                </ul>
+                <p>Llevo 3 años de experiencia usando estas herramientas de diseño</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Programacion Orientada a Objetos (POO)</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>JavaScript</li>
+                    <li>Netbeans</li>
+                    <li>PHP</li>
+                </ul>
+                <p>Tengo 8 meses de experiencia usando estos lenguajes de programacion</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Programacion basica Html, Css & Js</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Uso de metodologias de programacion y diseño</p>
+                <span class="porcentaje">40%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos SQLyog</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Diseño Photoshop & AdobeXD</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Tortilleria.png" alt="">
+                <div class="info">
+                    <h4>Tortilleria</h4>
+                    <p>Sitio Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/animalshome.png" alt="">
+                <div class="info">
+                    <h4>Animals Home</h4>
+                    <p>Sitio Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/FlechaRoja.png" alt="">
+                <div class="info">
+                    <h4>Interfaz Flecha Roja</h4>
+                    <p>Sitio Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/estacionamiento.png" alt="">
+                <div class="info">
+                    <h4>Puerta automatica</h4>
+                    <p>POO</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/casainteligente.png" alt="">
+                <div class="info">
+                    <h4>Casa Inteligente</h4>
+                    <p>POO</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/ejerciciosdepython.png" alt="">
+                <div class="info">
+                    <h4>Ejercicios de Python</h4>
+                    <p>Programacion</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/ventadecasas.png" alt="">
+                <div class="info">
+                    <h4>Venta de Bienes raíces</h4>
+                    <p>Sitio Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/pendiente.png" alt="">
+                <div class="info">
+                    <h4>Pendiente</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/pendiente.png" alt="">
+                <div class="info">
+                    <h4>Pendiente</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>CONTACTO</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/channel/UC9ctCt2mBT-KoALmHhVqe2Q"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/DonCatCR"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/carlilocas2003/"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://github.com/CastilloGonzalezCarlosRodrigo"><i class="fa-brands fa-github-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
